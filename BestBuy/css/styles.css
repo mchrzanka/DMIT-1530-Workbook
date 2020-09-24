@@ -8,4 +8,52 @@ header{
 
 .container{
   max-width:1280px;
+  margin:0 auto;
+}
+
+header > ul{
+  display:flex;
+  justify-content:flex-end;
+  height:48px;
+  align-items: center;
+}
+
+header > ul li{
+  padding-left:16px;
+}
+
+header ul{
+  list-style:none;
+  padding-left:0;
+  margin:0;
+  color:white;
+  display:flex;
+}
+
+header a{
+  color:white;
+  text-decoration:none;
+}
+
+header > div:not(.dk-blue){
+  display:flex;
+  justify-content:space-between;
+  height:48px;
+  align-items:center;
+}
+
+.dk-blue{
+  background-color:#003DA6;
+
+}
+
+nav ul{
+  height:48px;
+  align-items:center;
+}
+
+header > div:not(.dk-blue) ul:last-child{
+  flex-basis:240px;
+  display:flex;
+  justify-content:space-between;
 }
