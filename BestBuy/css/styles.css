@@ -44,7 +44,10 @@ header > div:not(.dk-blue){
 
 .dk-blue{
   background-color:#003DA6;
+}
 
+.dk-blue li{
+  margin-right:15px;
 }
 
 nav ul{
@@ -56,4 +59,41 @@ header > div:not(.dk-blue) ul:last-child{
   flex-basis:240px;
   display:flex;
   justify-content:space-between;
+}
+
+footer > ul{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+footer > ul > li{
+  flex-basis:100%;
+}
+
+footer > ul > li:first-child{
+  flex-basis: 70%;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+footer > ul > li:first-child ul {
+  flex-basis: 33%;
+}
+
+footer > ul > li:first-child ul li:first-child a {
+  font-weight:bold;
+}
+
+footer > ul > li:nth-child(2) {
+  flex-basis: 30%;
+}
+
+footer > ul > li:nth-child(2){
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+footer > ul > li:last-child ul li:last-child:after {
+  content: '';
 }
