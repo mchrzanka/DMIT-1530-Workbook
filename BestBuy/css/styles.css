@@ -61,19 +61,7 @@ header > div:not(.dk-blue) ul:last-child{
   justify-content:space-between;
 }
 
-main{
-  margin-bottom: 100px;
-}
 
-main > section{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: space-between;
-}
-
-h3{
-  flex-basis:100%;
-}
 
 /* gutter spacing is 2.5% */
 /* for defaults which will be 2 across one 100%-2.5%/2 */
@@ -90,18 +78,21 @@ section > section:nth-of-type(3){
   flex-basis: calc((100% - 5%) / 3);
 }
 
+main{
+  margin-bottom: 100px;
+  margin:30px;
+}
 
+main > section{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
 
-
-
-
-
-
-
-
-
-
-
+h3{
+  text-align:center;
+  flex-basis:100%;
+}
 
 footer > ul{
   display: flex;
