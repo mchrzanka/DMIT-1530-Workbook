@@ -1,0 +1,56 @@
+body {
+  font-family: "Noto Sans";
+  padding-top: 40px;
+}
+
+p {
+  color: #323232;
+}
+
+svg {
+  width: 18px;
+  margin: 0 10px;
+  fill: #323232;
+}
+
+article {
+  max-width: 350px;
+  margin: 0 auto;
+  border: 1px solid #e8e8e8;
+}
+
+.content {
+  padding: 0 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #323232;
+}
+
+.author img {
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 12px;
+}
+
+.author a {
+  display: flex;
+  align-items: center;
+}
+
+.author {
+  display: flex;
+}
+
+@media(min-width:768px) {
+  article {
+    max-width: 768px;
+    display: flex;
+  }
+
+  .content {
+    padding-top: 30px;
+    flex-basis: 78%;
+  }
+}
